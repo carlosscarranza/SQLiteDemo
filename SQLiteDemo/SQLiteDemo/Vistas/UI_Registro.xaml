@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteDemo.Vistas.UI_Registro">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="30">
+            <Label Text="Producto: "/>
+            <Entry Placeholder="Nombre del producto" Keyboard="Text" x:Name="Nombre"/>
+            <Label Text="Precio: "/>
+            <Entry Placeholder="Precio Unitario" Keyboard="Numeric" x:Name="UnitPrice"/>
+            <Label Text="Unidades: "/>
+            <Entry Placeholder="Unidades en stock" Keyboard="Numeric" x:Name="UnitsInStock"/>
+            <Button Text="Agregar" Clicked="btn_agregar" BackgroundColor="Azure"></Button>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

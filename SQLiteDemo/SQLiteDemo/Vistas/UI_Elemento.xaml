@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteDemo.Vistas.UI_Elemento">
+    <ScrollView>
+        <StackLayout Spacing="10" Padding="10">
+            <Label x:Name="mensaje"/>
+            <Label Text="Producto: "/>
+            <Entry x:Name="Producto" Placeholder="Producto"/>
+            <Label Text="Precio Unitario: "/>
+            <Entry x:Name="Precio" Placeholder="Precio"/>
+            <Label Text="Unidades en Stock: "/>
+            <Entry x:Name="Unidades" Placeholder="Unidades"/>
+            <Button Text="Actualizar" Clicked="btn_actualizar" BackgroundColor="LawnGreen"/>
+            <Button Text="Eliminar" Clicked="btn_eliminar" BackgroundColor="Red"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
